@@ -1,5 +1,10 @@
 # Home controller
 
+Ideas for a control panel for home automation. Inspired by
+
+![LocalBytes Localdeck](images/localdeck.jpg)
+
+
 ## Brainstorming parts needed
 
 ![Matrix 4x4 keypad](images/keypadbetter.svg)
