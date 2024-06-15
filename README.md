@@ -26,3 +26,5 @@ https://forum.makerforums.info/t/a-simple-io-panel-with-keypad-buttons-encoders-
 https://button.plus/
 
 ![Button+](images/buttonplus.jpg)
+
+![Button+ exploded](images/buttonplusexploded.jpg)
