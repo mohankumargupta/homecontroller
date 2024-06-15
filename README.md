@@ -8,7 +8,7 @@
 
 ![Matrix 4x4 keypad pinout](images/raspberry_pi_PID3844_pinout.jpg)
 
-## Ideas
+## Inspiration from others
 
 #### IO Panel
 
@@ -16,3 +16,8 @@ https://forum.makerforums.info/t/a-simple-io-panel-with-keypad-buttons-encoders-
 
 ![IO Card](images/iocard.jpg)
 
+#### Button+
+
+https://button.plus/
+
+![Button+](images/buttonplus.jpg)
