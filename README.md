@@ -13,6 +13,8 @@ Ideas for a control panel for home automation. Inspired by
 
 ![Matrix 4x4 keypad pinout](images/raspberry_pi_PID3844_pinout.jpg)
 
+![TFT LCD](images/LCD-TFT-Touch-Screen.jpg)
+
 ## Inspiration from others
 
 #### IO Panel
