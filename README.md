@@ -6,7 +6,7 @@ Ideas for a control panel for home automation. Inspired by
 
 ## Improvements
 
-1. Add microphone and speaker ![microphone speaker](images/microphone-speaker.png)
+1. Add microphone and speaker ![microphone speaker](images/speaker-microphone.png)
 
 2. Push buttons ![pushbuttons](images/pushbuttons.jpg)
 
