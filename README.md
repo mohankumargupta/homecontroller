@@ -4,6 +4,13 @@ Ideas for a control panel for home automation. Inspired by
 
 ![LocalBytes Localdeck](images/localdeck.jpg)
 
+## Improvements
+
+1. Add microphone and speaker ![microphone speaker](images/microphone-speaker.png)
+
+2. Push buttons ![pushbuttons](images/pushbuttons.jpg)
+
+
 
 ## Brainstorming parts needed
 
