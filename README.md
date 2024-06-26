@@ -22,6 +22,8 @@ Ideas for a control panel for home automation. Inspired by
 
 ![TFT LCD](images/LCD-TFT-Touch-Screen.jpg)
 
+[Aliexpress TFT LCD 3.5 inch](https://vi.aliexpress.com/item/33057812377.html)
+
 ## Inspiration from others
 
 #### IO Panel
