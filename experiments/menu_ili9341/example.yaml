@@ -1,0 +1,58 @@
+esphome:
+  name: oled
+esp32:
+  board: esp32-s3-devkitc-1 
+wifi:
+  ssid: Wokwi-GUEST
+web_server:
+logger:
+spi:
+  clk_pin: GPIO7
+  mosi_pin: GPIO6
+  miso_pin: GPIO20
+color:
+  - id: my_red
+    red: 100%
+    green: 3%
+    blue: 5%
+  - id: my_white
+    red_int: 250
+    green_int: 249
+    blue_int: 246
+  - id: my_green
+    red_int: 0
+    green_int: 255
+    blue_int: 0
+font:
+  - file: "gfonts://Overpass+Mono@600"
+    id: overpass
+    size: 20
+    bpp: 2
+  - file: HWYGNRRW.ttf
+    id: highwaygothic
+    bpp: 2
+  - file: Fhwaseriesbc2021plus0-ALv67.otf
+    id: highwaygothic0
+    bpp: 2
+  - file: Fhwaseriesbc2021plus30-JRoyx.otf
+    id: highwaygothic30
+    bpp: 2
+image:
+  - file: warrego.png
+    id: hexagon
+    resize: 240x320
+    type: RGB24
+display:
+  - platform: ili9xxx
+    model: TFT 2.4
+    cs_pin: GPIO15
+    dc_pin: GPIO5
+    reset_pin: GPIO4
+    lambda: |-
+      //it.filled_rectangle(0,0,240,320,id(my_green));
+      //it.rectangle(0, 0, 200, 50, id(my_red));
+      it.image(0, 0, id(hexagon));
+      //it.printf(17, 50, id(highwaygothic), id(my_white), "Ipswich");
+      it.printf(15, 50, id(overpass), id(my_white), "Ipswich", id(my_green));
+      it.printf(187, 50, id(overpass), id(my_white), "1", id(my_green));
+      //it.printf(17, 50, id(highwaygothic30), id(my_white), "Ipswich");
