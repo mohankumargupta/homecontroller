@@ -35,7 +35,6 @@ font:
 image:
   - file: warrego.png
     id: hexagon
-    resize: 240x320
     type: RGB24
 display:
   - platform: ili9xxx
@@ -47,7 +46,29 @@ display:
       //it.filled_rectangle(0,0,240,320,id(my_green));
       //it.rectangle(0, 0, 200, 50, id(my_red));
       it.image(0, 0, id(hexagon));
-      it.printf(17, 50, id(highwaygothic), id(my_white), "Ipswich", id(my_green));
+      it.printf(17, 90, id(highwaygothic), id(my_white), "Ipswich", id(my_green));
+      it.printf(202, 90, id(highwaygothic), id(my_white), "1", id(my_green));
+      it.printf(17, 120, id(highwaygothic), id(my_white), "Toowoomba", id(my_green));
+      it.printf(202, 120, id(highwaygothic), id(my_white), "2", id(my_green));
+      it.printf(17, 150, id(highwaygothic), id(my_white), "Dalby", id(my_green));
+      it.printf(202, 150, id(highwaygothic), id(my_white), "3", id(my_green));
+      it.printf(17, 180, id(highwaygothic), id(my_white), "Miles", id(my_green));
+      it.printf(202, 180, id(highwaygothic), id(my_white), "4", id(my_green));
+      it.printf(17, 210, id(highwaygothic), id(my_white), "Roma", id(my_green));
+      it.printf(202, 210, id(highwaygothic), id(my_white), "5", id(my_green));  
+      it.printf(17, 240, id(highwaygothic), id(my_white), "Mitchell", id(my_green));
+      it.printf(202, 240, id(highwaygothic), id(my_white), "6", id(my_green));            
+      it.printf(17, 270, id(highwaygothic), id(my_white), "Morven", id(my_green));
+      it.printf(202, 270, id(highwaygothic), id(my_white), "7", id(my_green));  
+
       //it.printf(15, 50, id(overpass), id(my_white), "Ipswich", id(my_green));
       //it.printf(187, 50, id(overpass), id(my_white), "1", id(my_green));
       //it.printf(17, 50, id(highwaygothic30), id(my_white), "Ipswich");
+      //it.line(0, 90, 240, 90, id(my_red));
+      //it.line(0, 120, 240, 120, id(my_red));
+      //it.line(0, 150, 240, 150, id(my_red));
+      //it.line(0, 180, 240, 180, id(my_red));
+      //it.line(0, 210, 240, 210, id(my_red));
+      //it.line(0, 240, 240, 240, id(my_red));
+      //it.line(0, 270, 240, 270, id(my_red));
+      //it.line(0, 300, 240, 300, id(my_red));
