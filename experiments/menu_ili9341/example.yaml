@@ -28,15 +28,10 @@ font:
     id: overpass
     size: 20
     bpp: 2
-  - file: HWYGNRRW.ttf
+  - file: HWYGOTH.TTF
     id: highwaygothic
     bpp: 2
-  - file: Fhwaseriesbc2021plus0-ALv67.otf
-    id: highwaygothic0
-    bpp: 2
-  - file: Fhwaseriesbc2021plus30-JRoyx.otf
-    id: highwaygothic30
-    bpp: 2
+    size: 24
 image:
   - file: warrego.png
     id: hexagon
@@ -52,7 +47,7 @@ display:
       //it.filled_rectangle(0,0,240,320,id(my_green));
       //it.rectangle(0, 0, 200, 50, id(my_red));
       it.image(0, 0, id(hexagon));
-      //it.printf(17, 50, id(highwaygothic), id(my_white), "Ipswich");
-      it.printf(15, 50, id(overpass), id(my_white), "Ipswich", id(my_green));
-      it.printf(187, 50, id(overpass), id(my_white), "1", id(my_green));
+      it.printf(17, 50, id(highwaygothic), id(my_white), "Ipswich", id(my_green));
+      //it.printf(15, 50, id(overpass), id(my_white), "Ipswich", id(my_green));
+      //it.printf(187, 50, id(overpass), id(my_white), "1", id(my_green));
       //it.printf(17, 50, id(highwaygothic30), id(my_white), "Ipswich");
