@@ -1,7 +1,11 @@
 esphome:
   name: oled
 esp32:
-  board: esp32-s3-devkitc-1 
+  board: esp32-s3-devkitc-1
+external_components:
+  - source:
+      type: local
+      path: components
 wifi:
   ssid: Wokwi-GUEST
 logger:
@@ -83,6 +87,7 @@ binary_sensor:
     key: 9
     on_press:
       then:
-        - logger.log:  "button 9 was pressed."          
-
+        - logger.log:  "button 9 was pressed."
+        - tft_menu.keypress:        
+tft_menu:
 
