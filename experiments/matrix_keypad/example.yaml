@@ -88,6 +88,16 @@ binary_sensor:
     on_press:
       then:
         - logger.log:  "button 9 was pressed."
-        - tft_menu.keypress:        
+        - tft_menu.keypress:
+            key: 9
+  - platform: matrix_keypad
+    keypad_id: mykeypad
+    id: keystar
+    key: "*"
+    on_press:
+      then:
+        - logger.log:  "button * was pressed."
+        - tft_menu.keypress:
+            key: "*"
 tft_menu:
 
